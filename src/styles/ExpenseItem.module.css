@@ -1,0 +1,28 @@
+.expenseItem {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.expenseData {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.expenseData h3 {
+    font-weight: 500;
+    color: orangered;
+}
+.expenseData p {
+    font-size: 12px;
+}
+.price{
+    position: absolute;
+    right: 100px;
+}
+
+.close {
+    width: 30px;
+    cursor: pointer;
+}

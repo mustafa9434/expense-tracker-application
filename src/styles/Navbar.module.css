@@ -1,0 +1,48 @@
+.nav {
+    height: 80px;
+}
+
+.container {
+    max-width: 1140px;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 24px;
+}
+.logo span {
+    color: orangered;
+    font-weight: 600;
+}
+
+.login {
+    padding: 7px 20px;
+    border: none;
+    background-color: orangered;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.register {
+    padding: 7px 20px;
+    border: none;
+    background-color: orangered;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.link {
+    text-decoration: none;
+    color: #fff;
+}

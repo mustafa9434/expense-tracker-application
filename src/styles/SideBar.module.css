@@ -1,0 +1,21 @@
+.card {
+    padding: 20px 0;
+}
+.cardData {
+    background-color: #fff;
+    padding: 30px 20px;
+}
+.user {
+    display: flex;
+    align-items: center;
+}
+.image {
+    width: 50px;
+    height: 50px;
+    clip-path: circle(50% at 50% 50%);
+    margin-right: 10px;
+}
+
+.userDetails p {
+    font-size: 12px;
+}

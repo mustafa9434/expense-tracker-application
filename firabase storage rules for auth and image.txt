@@ -1,0 +1,3 @@
+match /users/{uid}/{profileImage} {
+	allow read, write: if request.auth.uid == uid;
+    }

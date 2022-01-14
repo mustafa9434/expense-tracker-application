@@ -1,0 +1,47 @@
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: calc(100vh - 80px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerContent {
+    width: 400px;
+}
+.card {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 40px 20px;
+}
+.card h3 {
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.form {
+    width: 100%;
+}
+.formGroup {
+    width: 100%;
+}
+.formGroup:not(:first-child) {
+    margin-top: 15px;
+}
+.formControl {
+    padding: 10px;
+    width: 93%;
+}
+
+.btn {
+    padding: 10px 25px;
+    border: none;
+    background-color: orangered;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+}

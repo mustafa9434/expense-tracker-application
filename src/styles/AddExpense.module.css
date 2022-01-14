@@ -1,0 +1,29 @@
+.padd {
+    padding: 40px 0;
+}
+.form {
+    padding: 10px 0;
+}
+.formGroup {
+    height: 35px;
+    margin: 10px 0;
+}
+.formControl {
+    width: 96%;
+    height: 100%;
+    background-color: #ececec;
+    border: none;
+    padding: 0 7px;
+}
+.formControl:focus {
+    border: none;
+}
+.button {
+    padding: 8px 20px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
